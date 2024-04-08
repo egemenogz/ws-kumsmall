@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kumsmall</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <link rel="stylesheet" href="css/styles.css" /> -->
+    <link rel="stylesheet" href="css/kadin-giyim.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img class="logo" src="img/kumsmall-Logo.png" alt="" />
+        </a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="/index.html" class="nav-link">ANAYSAYFA</a>
+          </li>
+          <div class="nav-box">
+            <li class="nav-item active">
+              <a href="#" class="nav-link">MAĞAZALAR</a>
+              <!-- Toggle Here -->
+              <div class="categories-window" id="categoriesWindow">
+                <!-- Categories content goes here -->
+                <h3 style="color: red;">KATEGORİLER</h3>
+                <ul>
+                  <li><a href="#">Kadın Giyim</a></li>
+                  <li><a href="#">Erkek Giyim</a></li>
+                  <li><a href="#">Çocuk</a></li>
+                  <li><a href="#">Aktif Spor</a></li>
+                  <li><a href="#">Ayakkabı & Aksesuar</a></li>
+                  <li><a href="#">Ev Gereçleri</a></li>
+                  <li><a href="#">Kişisel Bakım</a></li>
+                  <li><a href="#">Saat & Mücevher</a></li>
+                  <!-- Add more categories as needed -->
+                </ul>
+              </div>
+              <!-- Toggle Ends -->
+            </li>
+          </div>
+          <li class="nav-item">
+            <a href="#" class="nav-link">YEME İÇME</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">ETKİNLİKLER</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">KAMPANYALAR</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">HAKKIMIZDA</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">İLETİŞİM</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="main-content-kadin-giyim py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2><b>KADIN GİYİM</b></h2>
+            <p>Mağazalar / Kadın Giyim</p>
+          </div>
+          <div class="col d-flex align-items-center justify-content-end">
+            <a href="#" class="px-2 filter-kadin"> Harfe göre Sırala A-Z</a>
+            <a href="#" class="px-2 filter-kadin"> Harfe göre Sırala Z-A</a>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="box d-flex px-2">
+            <div class="col-6 d-flex flex-column px-4">
+              <div class="row floor-info pt-4 px-2 d-flex flex-row w-100">
+                <button class="btn btn-dark w-25">Kat:1 No:1</button>
+                <button class="btn btn-light map w-25">Haritada Göster</button>
+              </div>
+              <div class="row py-5">
+                <div class="card-title py-4" style="font-size: 2em">
+                  <b>DIAMOND</b> GELİNLİK
+                </div>
+                <div class="card-text py-4">
+                  Women’s, men’s and children’s fashion, accesories, shoes,
+                  jewellery and more are in the Fashion Zone . Lorem Ipsum is
+                  simply dummy text of the Lorem Ipsum.
+                </div>
+                <div class="card-text bottom">
+                  <p><b>Telefon:</b> +90 212 345 56 79</p>
+                  <p><b>E-Posta:</b> info@kumsmall.com.tr</p>
+                  <p><b>Website:</b> www.relevanshop.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <img
+                src="img-kadin-giyim/kadin-giyim-img-1.png"
+                style="width: 100%; margin-left: 0.5rem"
+                alt="#"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row row-line px-0 py-0 my-0">
+          <div class="col" style="background-color: rgb(64, 64, 224)">
+            <div class="colored-div"></div>
+          </div>
+          <div class="col" style="background-color: rgb(71, 199, 71)">
+            <div class="colored-div"></div>
+          </div>
+          <div class="col" style="background-color: rgb(247, 182, 62)">
+            <div class="colored-div"></div>
+          </div>
+          <div class="col" style="background-color: rgb(199, 26, 26)">
+            <div class="colored-div"></div>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="box d-flex px-2">
+            <div class="col-6 d-flex flex-column px-4">
+              <div class="row floor-info pt-4 px-2 d-flex flex-row w-100">
+                <button class="btn btn-dark w-25">Kat:1 No:1</button>
+                <button class="btn btn-light map w-25">Haritada Göster</button>
+              </div>
+              <div class="row py-5">
+                <div class="card-title py-4" style="font-size: 2em">
+                  <b>TUĞBA</b> VENN
+                </div>
+                <div class="card-text py-4">
+                  Women’s, men’s and children’s fashion, accesories, shoes,
+                  jewellery and more are in the Fashion Zone . Lorem Ipsum is
+                  simply dummy text of the Lorem Ipsum.
+                </div>
+                <div class="card-text bottom">
+                  <p><b>Telefon:</b> +90 212 345 56 79</p>
+                  <p><b>E-Posta:</b> info@kumsmall.com.tr</p>
+                  <p><b>Website:</b> www.relevanshop.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <img
+                src="img-kadin-giyim/kadin-giyim-img-2.png"
+                style="width: 100%; margin-left: 0.5rem"
+                alt="#"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row row-line px-0 py-0 my-0">
+          <div class="col" style="background-color: rgb(64, 64, 224)">
+            <div class="colored-div"></div>
+          </div>
+          <div class="col" style="background-color: rgb(71, 199, 71)">
+            <div class="colored-div"></div>
+          </div>
+          <div class="col" style="background-color: rgb(247, 182, 62)">
+            <div class="colored-div"></div>
+          </div>
+          <div class="col" style="background-color: rgb(199, 26, 26)">
+            <div class="colored-div"></div>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="box d-flex px-2">
+            <div class="col-6 d-flex flex-column px-4">
+              <div class="row floor-info pt-4 px-2 d-flex flex-row w-100">
+                <button class="btn btn-dark w-25">Kat:1 No:1</button>
+                <button class="btn btn-light map w-25">Haritada Göster</button>
+              </div>
+              <div class="row py-5">
+                <div class="card-title py-4" style="font-size: 2em">
+                  <b>MAKE UP</b> WORLD
+                </div>
+                <div class="card-text py-4">
+                  Women’s, men’s and children’s fashion, accesories, shoes,
+                  jewellery and more are in the Fashion Zone . Lorem Ipsum is
+                  simply dummy text of the Lorem Ipsum.
+                </div>
+                <div class="card-text bottom">
+                  <p><b>Telefon:</b> +90 212 345 56 79</p>
+                  <p><b>E-Posta:</b> info@kumsmall.com.tr</p>
+                  <p><b>Website:</b> www.relevanshop.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <img
+                src="img-kadin-giyim/kadin-giyim-img-3.png"
+                style="width: 100%; margin-left: 0.5rem"
+                alt="#"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row row-line px-0 py-0 my-0">
+          <div class="col" style="background-color: rgb(64, 64, 224)">
+            <div class="colored-div"></div>
+          </div>
+          <div class="col" style="background-color: rgb(71, 199, 71)">
+            <div class="colored-div"></div>
+          </div>
+          <div class="col" style="background-color: rgb(247, 182, 62)">
+            <div class="colored-div"></div>
+          </div>
+          <div class="col" style="background-color: rgb(199, 26, 26)">
+            <div class="colored-div"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <main class="main-4-content mb-4">
+      <section class="carousel-bot-content py-4">
+        <div class="container">
+          <div class="title d-flex justify-content-center py-4">
+            <h5 class="carousel-bot-content-title">
+              <b>KUMSMALL</b> EKTİNLİK TAKVİMİ
+            </h5>
+          </div>
+
+          <div class="slider">
+            <div
+              class="card"
+              style="max-width: 288px; max-height: 530px; margin-top: 4rem"
+            >
+              <img
+                src="img/m-3-grid-img/grid-img-1.png"
+                alt=""
+                class="card-image-top rounded-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BABALAR GÜNÜ DOLMA SARMA YARIŞMASI</h5>
+                <p class="card-title-info">Özel Etkinlik</p>
+                <p class="card-text">
+                  Women's and Chlidren's fashion, accesories, shoes, jewellery
+                  and more are in the Fashion Zone.
+                </p>
+                <a href="#" class="text-primary">Devamını Oku</a>
+              </div>
+            </div>
+
+            <div
+              class="card"
+              style="max-width: 288px; max-height: 530px; margin-top: 4rem"
+            >
+              <img
+                src="img/m-3-grid-img/grid-img-2.png"
+                alt=""
+                class="card-image-top rounded-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">EĞLENCE DOLU BİR GÜNE VAR MISINIZ?</h5>
+                <p class="card-title-info">Özel Etkinlik</p>
+                <p class="card-text">
+                  Women's and Chlidren's fashion, accesories, shoes, jewellery
+                  and more are in the Fashion Zone.
+                </p>
+                <a href="#" class="text-primary">Devamını Oku</a>
+              </div>
+            </div>
+
+            <div
+              class="card"
+              style="max-width: 288px; max-height: 530px; margin-top: 4rem"
+            >
+              <img
+                src="img/m-3-grid-img/grid-img-3.png"
+                alt=""
+                class="card-image-top rounded-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  SEFO KUMSMALL’DA KAYSERİDE BÜYÜK KONSER
+                </h5>
+                <p class="card-title-info">Özel Etkinlik</p>
+                <p class="card-text">
+                  Women's and Chlidren's fashion, accesories, shoes, jewellery
+                  and more are in the Fashion Zone.
+                </p>
+                <a href="#" class="text-primary">Devamını Oku</a>
+              </div>
+            </div>
+
+            <div
+              class="card"
+              style="max-width: 288px; max-height: 530px; margin-top: 4rem"
+            >
+              <img
+                src="img/m-3-grid-img/grid-img-4.png"
+                alt="png"
+                class="card-image-top rounded-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  PINKEU KUMSMALL’DA KAYSERİDE BÜYÜK KONSER
+                </h5>
+                <p class="card-title-info">Özel Etkinlik</p>
+                <p class="card-text">
+                  Women's and Chlidren's fashion, accesories, shoes, jewellery
+                  and more are in the Fashion Zone.
+                </p>
+                <a href="#" class="text-primary">Devamını Oku</a>
+              </div>
+            </div>
+
+            <div
+              class="card"
+              style="max-width: 288px; max-height: 530px; margin-top: 4rem"
+            >
+              <img
+                src="img/m-3-grid-img/grid-img-5.png"
+                alt="png"
+                class="card-image-top rounded-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  PINKEU KUMSMALL’DA KAYSERİDE BÜYÜK KONSER
+                </h5>
+                <p class="card-title-info">Özel Etkinlik</p>
+                <p class="card-text">
+                  Women's and Chlidren's fashion, accesories, shoes, jewellery
+                  and more are in the Fashion Zone.
+                </p>
+                <a href="#" class="text-primary">Devamını Oku</a>
+              </div>
+            </div>
+
+            <div
+              class="card"
+              style="max-width: 288px; max-height: 530px; margin-top: 4rem"
+            >
+              <img
+                src="img/m-3-grid-img/grid-img-6.png"
+                alt="png"
+                class="card-image-top rounded-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  PINKEU KUMSMALL’DA KAYSERİDE BÜYÜK KONSER
+                </h5>
+                <p class="card-title-info">Özel Etkinlik</p>
+                <p class="card-text">
+                  Women's and Chlidren's fashion, accesories, shoes, jewellery
+                  and more are in the Fashion Zone.
+                </p>
+                <a href="#" class="text-primary">Devamını Oku</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <main class="content-fade-slider py-4 mb-2">
+      <div class="container">
+        <div class="light px-5">
+          <img
+            src="img/img-top-footer/bot-crs-img-1.png"
+            class="img-top-footer"
+            alt=""
+          />
+
+          <img
+            src="img/img-top-footer/bot-crs-img-2.png"
+            class="img-top-footer"
+            alt=""
+          />
+
+          <img
+            src="img/img-top-footer/bot-crs-img-3.png"
+            class="img-top-footer"
+            alt=""
+          />
+
+          <img
+            src="img/img-top-footer/bot-crs-img-4.png"
+            class="img-top-footer"
+            alt=""
+          />
+
+          <img
+            src="img/img-top-footer/bot-crs-img-5.png"
+            class="img-top-footer"
+            alt=""
+          />
+        </div>
+      </div>
+    </main>
+
+    <footer class="end-footer-info my-2 py-4">
+      <div class="container">
+        <div class="row py-4">
+          <div class="col-4">
+            <div class="logo w-100">
+              <img src="img/kumsmall-Logo.png" style="width: 80%" alt="" />
+              <p style="line-height: 2em; color: grey">
+                Alışveriş Merkezi en seçkin alışveriş ve eğlence merkezidir. En
+                kaliteli mağazaları ve restoranları ile tanınan bir bölgede yer
+                almaktadır.
+              </p>
+            </div>
+          </div>
+          <div class="col-2 px-4">
+            <h4>SİTE HARİTASI</h4>
+            <div class="row py-4">
+              <a href="/index.html" class="footer-link">Anasayfa</a>
+              <a href="/kadin-giyim.html" class="footer-link">Mağazalar</a>
+              <a href="#" class="footer-link">Yeme İçme</a>
+              <a href="#" class="footer-link">Etkinlikler</a>
+              <a href="#" class="footer-link">Kampanyalar</a>
+              <a href="#" class="footer-link">Hakkımızda</a>
+            </div>
+          </div>
+          <div class="col-3 px-4">
+            <h4 style="padding-bottom: 1rem">ABONE OL</h4>
+            <p style="padding-bottom: 1rem">
+              Kumsmall’un tüm kampanya ve etkinliklerinden haberdar olmak İçin
+              mail adresinizi yazın;
+            </p>
+            <form action="#" class="footer form border-0 r">
+              <input
+                class="w-100 py-2"
+                type="text"
+                placeholder="Mail adresinizi yazınız"
+              />
+              <button class="btn btn-dark rounded-0 mt-1">GÖNDER</button>
+            </form>
+          </div>
+          <div class="col-3">
+            <h4 style="padding-bottom: 1rem">İLETİŞİM</h4>
+            <p style="padding-bottom: 1rem">
+              Oymaağaç Mah. 5062 Cad. No: 44 38100 Kocasinan/Kayseri
+            </p>
+            <p style="padding-bottom: 1rem">info@kumsmall.com.tr</p>
+            <p>444 20 77</p>
+            <div class="row d-inline">
+              <a href="#"
+                ><i class="fa-brands fa-twitter" style="color: #000"></i
+              ></a>
+              <a href="#"
+                ><i class="fa-brands fa-instagram" style="color: #000"></i
+              ></a>
+              <a href="#"
+                ><i class="fa-brands fa-facebook" style="color: #000"></i
+              ></a>
+              <a href="#"
+                ><i class="fa-brands fa-youtube" style="color: #000"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".slider").slick({
+          autoplay: true,
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          prevArrow:
+            "<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+          nextArrow:
+            "<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $(".carousel").slick({
+          autoplay: true,
+          dots: false,
+          infinite: true,
+          speed: 500,
+          prevArrow:
+            "<button type='button' class='carousel-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+          nextArrow:
+            "<button type='button' class='carousel-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+        });
+      });
+    </script>
+    <script>
+      $(".light").slick({
+        autoplay: true,
+        lazyLoad: "ondemand",
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        nextArrow: false,
+        prevArrow: false,
+      });
+    </script>
+    <script src="script/toggleScript.js"></script>
+  </body>
+</html>

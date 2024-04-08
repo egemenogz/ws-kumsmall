@@ -1,0 +1,18 @@
+@import url(styles.css);
+
+.main-content-kadin-giyim {
+    background-color: rgb(238, 238, 238);
+}
+
+.filter-kadin {
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+}
+
+.filter-kadin:hover {
+    color: rgb(125, 125, 125);
+}
+
+.box {
+    background-color: white;
+}
